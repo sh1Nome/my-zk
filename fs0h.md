@@ -1,6 +1,6 @@
 ---
 title: Chrome について
-tags: [browser]
+tags: [browser, web]
 ---
 
 Google が提供するウェブブラウザ。
