@@ -1,6 +1,6 @@
 ---
 title: zk-nvim の使い方
-tags: [zk]
+tags: [zk, nvim]
 ---
 
 zk-nvim は zk を nvim で使うためのプラグイン

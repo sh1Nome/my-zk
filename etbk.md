@@ -1,6 +1,6 @@
 ---
 title: chezmoi について
-tags: [dotfiles, chezmoi]
+tags: [dotfiles, chezmoi, cli]
 ---
 
 chezmoi は dotfiles を管理するための cli 。  
