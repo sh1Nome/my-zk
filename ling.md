@@ -1,6 +1,6 @@
 ---
 title: winget について
-tags: [windows, package, cli]
+tags: [windows, package]
 ---
 
 Windows で使えるパッケージ管理ツール。
