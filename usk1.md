@@ -1,6 +1,6 @@
 ---
 title: ChromeOS で keyring ツールを使う方法
-tags: [chrome, os, google]
+tags: [chrome, google]
 ---
 
 ## 概要
