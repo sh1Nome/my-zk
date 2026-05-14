@@ -1,6 +1,6 @@
 ---
 title: httpbin
-tags: [dev, web]
+tags: [web]
 ---
 
 Postmanが管理しているテスト用のAPIサーバー  
