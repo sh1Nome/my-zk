@@ -1,5 +1,5 @@
 ---
-title: WSL
+title: WSL について
 tags: [windows, wsl]
 ---
 
