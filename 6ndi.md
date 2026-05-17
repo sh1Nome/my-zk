@@ -1,6 +1,6 @@
 ---
 title: firewalld の使い方
-tags: [linux, bash, command]
+tags: [linux, command]
 ---
 
 | 操作                                               | コマンド                                          |
