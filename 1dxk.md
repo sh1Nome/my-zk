@@ -1,5 +1,5 @@
 ---
-title: Linux で WiFi に接続する方法
+title: Linux でネットワークに接続、確認する方法
 tags: [linux, command]
 ---
 
@@ -8,3 +8,5 @@ tags: [linux, command]
 | 接続情報を表示する                          | `nmcli connection show`               |
 | 指定したSSIDのWi-Fiに接続する               | `nmcli device wifi connect (SSID)`    |
 | Wi-Fiネットワークをスキャンして一覧表示する | `nmcli device wifi list --rescan yes` |
+| ホスト名を表示する                          | `hostname`                            |
+| IPアドレスを表示する                        | `hostname -i`                         |
