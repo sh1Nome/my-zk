@@ -17,8 +17,7 @@ Branch-Security.json:
     "ref_name": {
       "exclude": [],
       "include": [
-        "refs/heads/main",
-        "refs/heads/develop/**"
+        "refs/heads/main"
       ]
     }
   },
@@ -34,16 +33,20 @@ Branch-Security.json:
       "parameters": {
         "required_approving_review_count": 0,
         "dismiss_stale_reviews_on_push": false,
+        "required_reviewers": [],
         "require_code_owner_review": false,
         "require_last_push_approval": false,
         "required_review_thread_resolution": true,
-        "automatic_copilot_code_review_enabled": false,
         "allowed_merge_methods": [
-          "merge",
-          "squash",
           "rebase"
         ]
       }
+    },
+    {
+      "type": "required_signatures"
+    },
+    {
+      "type": "required_linear_history"
     }
   ],
   "bypass_actors": []
