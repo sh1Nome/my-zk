@@ -9,18 +9,17 @@ cmd と powershell について、とりあえずこれだけ分かればなん�
 
 ## cmd
 
-* `(command) /h`
-    * コマンドのヘルプを表示する
-* `where (command)`
-    * コマンドのパスを表示する
+| 操作                       | コマンド          |
+| -------------------------- | ----------------- |
+| コマンドのヘルプを表示する | `(command) /h`    |
+| コマンドのパスを表示する   | `where (command)` |
 
 ## PowerShell
 
-* `help (command)`
-    * コマンドのヘルプを表示する
-* `Get-Command (command)`
-    * コマンドのパスを表示する
-    * （`where.exe (command)`）でもOK
-* `powershell -NoProfile -ExecutionPolicy Bypass -File /path/to/file`
-    * ps1 ファイルを実行
+| 操作                       | コマンド                                                            |
+| -------------------------- | ------------------------------------------------------------------- |
+| コマンドのヘルプを表示する | `help (command)`                                                    |
+| コマンドのパスを表示する   | `Get-Command (command)`                                             |
+| コマンドのパスを表示する   | `where.exe (command)`                                               |
+| ps1 ファイルを実行         | `powershell -NoProfile -ExecutionPolicy Bypass -File /path/to/file` |
 
