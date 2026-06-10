@@ -21,4 +21,6 @@ cmd と powershell について、とりあえずこれだけ分かればなん�
 * `Get-Command (command)`
     * コマンドのパスを表示する
     * （`where.exe (command)`）でもOK
+* `powershell -NoProfile -ExecutionPolicy Bypass -File /path/to/file`
+    * ps1 ファイルを実行
 
