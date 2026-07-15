@@ -9,3 +9,4 @@ tags: [linux, font]
 * `fc-query /path/to/ttf | grep spacing` - 等幅フォントか確認
     * 100ならmono, 90ならdual
 * `fc-cache -v` - フォントキャッシュを更新する（verbose）
+    * `/usr/share/fonts` に入れてから実行するとフォントを追加できる
