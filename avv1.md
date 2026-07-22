@@ -9,7 +9,7 @@ tags: [git, command]
 [user]
     name = sh1nome # Git のユーザー名
     email = shinodayo1024@gmail.com # Git のメールアドレス
-    signingkey = ~/.ssh/id_ed25519.pub # Git の署名用の公開鍵のパス
+    signingkey = ~/.ssh/id_ed25519 # Git の署名用の秘密鍵のパス
 [commit]
     gpgsign = true # すべてのコミットで署名する
 [gpg]
