@@ -24,6 +24,7 @@ Google が提供するウェブブラウザ。
 * Vue.js devtools
 * YouTube™ 二重字幕
 * ドライブ用アプリケーション ランチャー（Google）
+* Claude
 
 ## フォント設定を初期に戻す方法
 
