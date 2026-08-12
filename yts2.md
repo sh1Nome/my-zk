@@ -8,3 +8,6 @@ AI エージェントのための microVM を基盤としたサンドボック�
 サブコマンドやオプションの使用感は `docker` に似ている。
 
 https://docs.docker.com/ai/sandboxes
+
+Windows は winget で導入できる。  
+Fedora は GitHub Release の rpm で導入できる。
