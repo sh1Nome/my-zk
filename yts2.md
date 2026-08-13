@@ -9,5 +9,9 @@ AI エージェントのための microVM を基盤としたサンドボック�
 
 https://docs.docker.com/ai/sandboxes
 
+サンドボックスからホスト OS 上のプロキシを経由する。  
+プロキシで AI エージェントの認証情報を注入するため、  
+サンドボックスは AI エージェントの認証情報にアクセスできない。
+
 Windows は winget で導入できる。  
 Fedora は GitHub Release の rpm で導入できる。
