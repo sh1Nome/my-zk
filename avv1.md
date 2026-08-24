@@ -14,6 +14,14 @@ tags: [git, command]
     gpgsign = true # すべてのコミットで署名する
 [gpg]
     format = ssh # 署名時に使用するフォーマット
+[gpg "ssh"]
+    allowedSignersFile = ~/.ssh/allowed_signers # 署名の検証をするための設定
 ```
 
 user.signingkey で設定した公開鍵を GitHub に署名用の鍵として登録する。
+
+allowed_signers はこんな感じで設定できる
+
+```
+echo "$(git config get user.email) namespaces=\"git\" $(eval cat "$(ssh -G github.com | awk '/^identityfile/ {print $2; exit}').pub")" >> ~/.ssh/allowed_signers
+```
