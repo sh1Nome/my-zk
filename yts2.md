@@ -1,6 +1,6 @@
 ---
 title: Docker Sandboxes とは
-tags: [ai, docker]
+tags: [sbx, ai, docker]
 ---
 
 AI エージェントのための microVM を基盤としたサンドボックス環境。  
