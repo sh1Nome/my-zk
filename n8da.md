@@ -8,4 +8,5 @@ Console タブ
 Sources タブ
 Application タブ の Local Storage
 Network タブの throttling
+Network タブの Payload
 Network タブの EventStream と Response
